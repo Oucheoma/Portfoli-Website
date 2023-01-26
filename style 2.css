@@ -31,13 +31,13 @@
     margin-left: 120px;
     font-family: "Poppins";
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     border: none;
     border-radius: 15px;
     border-color: #0D2137;
     background-color: rgb(13, 33, 55);
     color: #ffffff;
-    width: 400px;
+    width: 380px;
     text-align: center;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -48,7 +48,7 @@
     margin-top: 50px;
     font-family: "Poppins";
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     border: none;
     border-radius: 15px;
     border-color: #0D2137;
@@ -70,7 +70,7 @@
     border-color: #0D2137;
     background-color: rgb(13, 33, 55);
     color: #ffffff;
-    width: 500px;
+    width: 450px;
     text-align: center;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -80,13 +80,13 @@
     margin-top: 50px;
     font-family: "Poppins";
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     border: none;
     border-radius: 15px;
     border-color: #0D2137;
     background-color: rgb(13, 33, 55);
     color: #ffffff;
-    width: 350px;
+    width: 430px;
     text-align: center;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -189,3 +189,4 @@ ul {
 
     
   }
+
