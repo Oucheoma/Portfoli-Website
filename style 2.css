@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.intro{
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0D2137;
+}
+.header-container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 4fr 1fr;
+}
+.profile{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 30px;
+    height: 100px;
+    border-style: solid;
+    border-color:#0D2137;
+    border-radius: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+.ui-text{
+    margin-left: 120px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    border-color: #0D2137;
+    background-color: rgb(13, 33, 55);
+    color: #ffffff;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.ui-text-1{
+    margin-left: 120px;
+    margin-top: 50px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    border-color: #0D2137;
+    background-color: rgb(13, 33, 55);
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ui-text-2{
+    margin-left: 120px;
+    margin-top: 50px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    border-color: #0D2137;
+    background-color: rgb(13, 33, 55);
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ui-text-3{
+    margin-left: 120px;
+    margin-top: 50px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    border-color: #0D2137;
+    background-color: rgb(13, 33, 55);
+    color: #ffffff;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ui-text:hover{
+    cursor: pointer;
+    background-color: rgba(13, 33, 55, 0.8);
+}
+.ui-text-1:hover{
+    cursor: pointer;
+    background-color: rgba(13, 33, 55, 0.8);
+}
+.picture :hover{
+    cursor: pointer;
+    background-color:rgba(16, 16, 16, 0.8);
+}
+.button-1{
+    height: 20px;
+    border: none;
+    border-radius: 30px;
+    color:#0D2137;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    flex: 33%;
+    max-width: 33%;
+    padding:0 2px;
+    margin-left: 115px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 130px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    row-gap: 10px;
+    
+}
+.ui{
+    font-family: poppins;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 20px;
+    color: #0D2137;
+  }
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    margin-left: 120px;
+  }
+  
+  @media (min-width: 500px) {
+    ul {
+      grid-auto-flow: column;
+    }
+  }
+  a {
+    color:#0D2137;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 18px;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: #0d2137;
+    border-radius: 5px;
+
+    
+  }
